@@ -1,0 +1,129 @@
+body {
+  background-color: #8eaddc;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.task-manager {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.task-manager h1 {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.task-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.task-input button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-input button:hover {
+  background-color: #0056b3;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.task-item span {
+  font-size: 18px;
+  flex-grow: 1;
+}
+
+.task-item input {
+  padding: 5px;
+  font-size: 16px;
+  flex-grow: 1;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.task-item button {
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.task-item button.edit {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.task-item button.edit:hover {
+  background-color: #218838;
+}
+
+.task-item button.delete {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.task-item button.delete:hover {
+  background-color: #c82333;
+}
+
+.task-item button.update {
+  background-color: #ffc107;
+  color: #ffffff;
+}
+
+.task-item button.update:hover {
+  background-color: #e0a800;
+}
+
+.task-item button.cancel {
+  background-color: #6c757d;
+  color: #ffffff;
+}
+
+.task-item button.cancel:hover {
+  background-color: #5a6268;
+}
