@@ -1,0 +1,37 @@
+/* .Interface{
+    width: 300px;
+    padding: 10px;
+    margin: 5% 0 0 40%;
+    background-color: lightgray;
+
+} */
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-container form {
+  margin-bottom: 20px;
+}
+
+.weather-container input {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.weather-container button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.weather-container button:hover {
+  background-color: #0056b3;
+}
